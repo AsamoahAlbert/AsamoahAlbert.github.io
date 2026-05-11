@@ -1472,7 +1472,7 @@ img {
     padding: 2rem;
     max-width: 900px;
     display: grid;
-    grid-template-columns: 320px 1fr;
+    grid-template-columns: 450px 1fr;
     gap: 2rem;
     align-items: center;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
@@ -1480,8 +1480,9 @@ img {
 
 .portfolio__img {
     width: 100%;
+    max-width: 430px;
     border-radius: 12px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .portfolio__title {
