@@ -771,12 +771,7 @@ img {
   margin-top: 3rem;
 }
 
-.portfolio__data {
-  height: 222px;
-  width: 280px;
-  background-color: var(--first-color);
-  margin: 0.2rem;
-}
+
 
 .demo {
   margin: 4rem;
@@ -1513,64 +1508,4 @@ img {
     margin-top: 1rem;
 }
 
-/*Find the section where your portfolio styles already exist, then ADD this BELOW it:*/
-.portfolio__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-}
 
-.portfolio__content {
-    background: #fff;
-    border-radius: 20px;
-    padding: 2rem;
-    max-width: 900px;
-    display: grid;
-    grid-template-columns: 320px 1fr;
-    gap: 2rem;
-    align-items: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-}
-
-.portfolio__img {
-    width: 100%;
-    border-radius: 12px;
-    object-fit: cover;
-}
-
-.portfolio__title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #111;
-}
-
-.portfolio__description {
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-    color: #555;
-}
-
-.portfolio__tech {
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    color: #444;
-}
-
-.portfolio__button {
-    margin-right: 1rem;
-    margin-top: 1rem;
-}
-
-
-@media screen and (max-width: 768px) {
-    .portfolio__content {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .portfolio__img {
-        max-width: 100%;
-    }
-}
